@@ -1,0 +1,20 @@
+{
+  "name": "cehas-barbershop",
+  "version": "1.0.0",
+  "description": "booking website for \"Cehas barbershop\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Benjaminas Paliokas github: alojine",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7"
+  }
+}

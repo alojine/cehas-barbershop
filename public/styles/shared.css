@@ -1,0 +1,31 @@
+/* font-family: 'Aboreto', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+#nav-bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Aboreto', sans-serif;
+}
+
+#nav-image img {
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
+}
+
+#title-name {
+    /* margin: 0 auto; */
+    font-family: 'Aboreto', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    align-items: center;
+}
+
