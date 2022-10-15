@@ -35,28 +35,26 @@
       <div class="wrapper">
         <div class="content">
           <div class="top-option">
-            <div class="login-button"><a href="" class="change-login">Prisijungti</a></div>
-            <div class="register-button"><a href="" class="change-register">Registruotis</a></div>
+            <div class="login-board"><button>Prisijungti</button></div>
+            <div class="register-board"><button>Registruotis</button></div>
           </div>
-          <div class="login-inputs">
-            <div>
-              <label for="" class="custom-field">
-                <input type="text" required/>
-                <!-- <span class="placeholder">Vardas</span> -->
-              </label>
-            </div>
-            <div>
-              <label for="" class="custom-field">
-                <input type="text" required/>
-                <!-- <span class="placeholder">Slaptazodis</span> -->
-              </label>
-            </div>
+          <div class="input-wrapper">
+            <form class="prisijunk-form"> 
+              <div class="inp">
+                <!-- <label for="exampleInputEmail1" class="form-label">Vardas</label> -->
+                <input type="text" id="vardas" class="form-control" aria-describedby="emailHelp" placeholder="Vardas">
+              </div>
+              <div class="inp">
+                <!-- <label for="exampleInputPassword1" class="form-label">Slaptazodis</label> -->
+                <input type="text" id="slaptazodis" class="form-control" placeholder="Slaptazodis">
+              </div>
+            </form>
           </div>
-          <div class="prisijunk-button">
-            <button>Prisijunk</button>
-          </div>
+          <div class="prisijunk-button"><button>Prisijunk</button></div>
         </div>
       </div>
+      
+      
 
     </main>
 

@@ -10,6 +10,7 @@
   "author": "Benjaminas Paliokas github: alojine",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^5.2.2",
     "date-and-time": "^2.4.1",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
