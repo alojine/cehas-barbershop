@@ -4,9 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Cehas Barbershop</title>
-    <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <link rel="icon" type="image/x-icon" href="../public/images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -40,14 +39,15 @@
           </div>
           <div class="input-wrapper">
             <form class="prisijunk-form"> 
-              <div class="inp">
-                <!-- <label for="exampleInputEmail1" class="form-label">Vardas</label> -->
-                <input type="text" id="vardas" class="form-control" aria-describedby="emailHelp" placeholder="Vardas">
+              <div class="form-item">
+                <p class="formLabel">Email</p>
+                <input type="email" name="email" id="email" class="form-style" autocomplete="off"/>
               </div>
-              <div class="inp">
-                <!-- <label for="exampleInputPassword1" class="form-label">Slaptazodis</label> -->
-                <input type="text" id="slaptazodis" class="form-control" placeholder="Slaptazodis">
+              <div class="form-item">
+                <p class="formLabel">Password</p>
+                <input type="password" name="password" id="password" class="form-style" />
               </div>
+
             </form>
           </div>
           <div class="prisijunk-button"><button>Prisijunk</button></div>
