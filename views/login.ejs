@@ -1,71 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Cehas Barbershop</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="../public/images/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Open+Sans:wght@400;700&family=Roboto:wght@100;300&family=Source+Sans+Pro:ital,wght@1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-
+    <%- include('includes/login-head') %>
     <link rel="stylesheet" href="styles/login.css" />
     <link rel="stylesheet" href="styles/shared.css" />
   </head>
   <body>
-    <header>
-      <ul id="nav-bar">
-        <li id="nav-image">
-          <img src="images/cehas-logo.png" alt=" Cehas Barbershop logo " />
-        </li>
-
-        <li id="title-name">
-          <p>Barbershop</p>
-        </li>
-      </ul>
-    </header>
+    <%- include('includes/login-header') %>
 
     <section id="hero">
-      <div id="wrapper">
-        <div class="top-option">
-          <div class="login-board"><button>Prisijungti</button></div>
-          <div class="register-board"><button>Registruotis</button></div>
-        </div>
+      <div class="wrapper-big">
+        <div id="wrapper">
+          <div class="top-option">
+            <div class="login-board"><button>Prisijungti</button></div>
+            <div class="register-board"><button>Registruotis</button></div>
+          </div>
 
-        <div class="login-form">
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-            </div>
-            <div class="mb-3" id="password">
-              <label for="exampleInputPassword1" class="form-label"
-                >Password</label
-              >
-              <input
-                type="password"
-                class="form-control"
-                id="exampleInputPassword1"
-              />
-            </div>
-            <button type="submit" class="btn btn-primary">Prisijunk!</button>
-          </form>
+          <div class="login-form">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3" id="password">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Prisijunk!</button>
+            </form>
+          </div>
+        </div>
+        <div class="links">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/Cechasbarbershop/">
+                <img src="../public/images/facebook.png" alt="facebook" />
+              </a>
+            </li>
+            <li>
+              <a href=""><img src="../public/images/gmail.png" alt="email"></a>
+            </li>
+          </ul>
         </div>
       </div>
+
+      
     </section>
 
     <footer></footer>
