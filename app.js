@@ -29,7 +29,7 @@ const login = require('./controller/login');
 const register = require('./controller/register');
 
 // Routes
-app.use('/', login);
+app.use('/', register);
 app.use('/login', login);
 app.use('/register', register);
 
