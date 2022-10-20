@@ -17,8 +17,10 @@ main {
   background-size: cover;
 }
 
-/* #wrapper-big {
-} */
+#wrapper-big{
+  display: flex;
+  flex-direction: column;
+}
 
 #wrapper {
   width: 70%;
@@ -67,8 +69,9 @@ main {
 }
 
 .links{
-  position: absolute;
-  bottom: 0px;
+  /* position: absolute;
+  bottom: 0; */
+  
 }
 
 .links ul {
