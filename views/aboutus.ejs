@@ -1,42 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <%- include('includes/login-head') %> 
-    </head>
-    <body>
-        
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="mx-auto order-0">
-                  <a class="navbar-brand" href="#">
-                    <img src="images/cehas-barbershop-img.png" class="img-thumbnail " alt="Logo" width="60" height="60">
-                    Barbershop
-                  </a>
-                </div>
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="">Paslaugos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="register">Registracija</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
+  <head>
+    <%- include('includes/login-head') %>
+    <link rel="stylesheet" href="styles/aboutus.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="mx-auto order-0">
+          <a class="navbar-brand mx-auto" href="aboutus">
+            <img
+              src="images/cehas-circle.png"
+              class="img-thumbnail border-0"
+              alt="Logo"
+              width="70"
+            />
+            BARBERSHOP
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <main>
+        <div
+          class="navbar-collapse collapse w-100 order-3 dual-collapse2"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href=""
+                >Paslaugos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="register">Registracija</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-        </main>
+    <main>
+      <div class="bg-image text-white">
+        <div class="">
+          <h1 class="text-center">Seni veidai - naujoje vietoje!</h1>
+        </div>
 
-        <footer>
+        <ul class="list-group list-group-horizontal justify-content-center">
+          <ul class="list-group list-group-vertical">
+            <li class="list-group-item border-0 bg-transparent">
+              <h3 class="text-white">Džiūgas</h3>
+            </li>
+            <li class="list-group-item border-0 bg-transparent">
+              <img
+                src="images/Dziugas.png"
+                class="rounded float-left"
+                alt="Džiūgas"
+              />
+            </li>
+          </ul>
+          <ul class="list-group list-group-vertical">
+            <li class="list-group-item border-0 bg-transparent">
+              <h3 class="text-white">Martynas</h3>
+            </li>
+            <li class="list-group-item border-0 bg-transparent">
+              <img src="images/Martynas.png" class="mx-auto" alt="Martynas" />
+            </li>
+          </ul>
+          <ul class="list-group list-group-vertical">
+            <li class="list-group-item border-0 bg-transparent">
+              <h3 class="text-white">Nedas</h3>
+            </li>
+            <li class="list-group-item border-0 bg-transparent">
+              <img
+                src="images/Nedas.png"
+                class="rounded float-right"
+                alt="Nedas"
+              />
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </main>
 
-        </footer>
-    </body>
+    <footer></footer>
+  </body>
 </html>

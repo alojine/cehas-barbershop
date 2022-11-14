@@ -1,0 +1,5 @@
+.bg-image{
+  background-image: url(../images/barber-chair.png);
+  background-position: center;
+  background-size: cover;
+}
