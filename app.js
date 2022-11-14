@@ -27,9 +27,10 @@ app.use(express.urlencoded({ extended: false}));
 // Paths
 const login = require('./controller/login');
 const register = require('./controller/register');
+const aboutus = require('./controller/aboutus');
 
 // Routes
-app.use('/', register);
+app.use('/', aboutus);
 app.use('/login', login);
 app.use('/register', register);
 

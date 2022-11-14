@@ -47,20 +47,4 @@ button:hover {
   color: #fff;
 }
 
-.links ul {
-  display: flex;
-  justify-content: bottom;
-  margin-top: auto;
-}
-
-.links li {
-  width: 5%;
-  height: 5%;
-  margin: 0%;
-}
-
-.links img {
-  width: 100%;
-  height: 100%;
-}
 
